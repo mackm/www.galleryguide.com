@@ -1,0 +1,8 @@
+filename = "SanJuanIslandsGuidetotheVisualArts-2013-09-02T14-55-35"
+description = ""
+datestamp = "1378158935"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "7.16"
+sites[0][name] = "San Juan Islands Guide to the Visual Arts"
+sites[0][url] = "http://127.0.0.1:10088/"
