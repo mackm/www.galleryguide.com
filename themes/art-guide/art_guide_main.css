@@ -1,0 +1,194 @@
+
+/**
+ *
+ * art_guide_main.css - Theme for www.mccauleygallery.com
+ *
+ */
+
+
+/* Include padding within the width, instead of in-addition */ 
+ * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Set up the site for small devices like phones in portrait mode */
+/* Designed to look good between 300px and 400px									*/
+
+html {
+	width:100%;
+  margin:0 auto;
+	text-align:center;
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+body {
+ margin:0 auto;
+ padding:0
+ text-align:center;
+ width:100%;
+ font-size:14px;
+ /* background-color:#d84799; */
+}
+
+#page-wrapper {
+	margin:0 auto;
+	position:relative;
+	width:100%;
+	text-align:left;
+	width:100%;
+	max-width:960px;
+}
+
+#main {
+	float:left;
+	width:100%;
+}
+
+#main .region-content {
+	float:left;
+	width:100%;
+	padding:0 10px;
+}
+
+#header {
+	float:left;
+	width:100%;
+	margin-bottom:.2em;
+}
+
+#name-and-slogan {
+	font-size:20px;
+	float:left;
+	padding:20px 0;
+	width:100%;
+	background-color:#d84799;
+	text-align:center;
+	margin-top:10px;s
+}
+#name-and-slogan a {
+	color:#e8db17;
+}
+
+.region-header {
+	float:left;
+	width:100%;
+}
+
+p {
+	margin:.6em 0;
+}
+	
+
+
+.region-header ul {
+	margin: 15px 0 5px 0;
+	padding:0;
+	list-style-type:none;
+	float:left;
+	width:100%;
+	text-transform:uppercase;
+}
+
+.region-header ul li {
+  display:inline;
+	float:left;
+	margin:0;
+	padding:0;
+	text-align:center;
+	width:25%;
+}
+
+.region-header ul li a {
+  color: #D84799;
+}
+
+.front h1#page-title {
+	display:none;
+}
+
+.front .node-page .content {
+	display:none;
+}
+
+.breadcrumb {
+	display:none;
+}
+
+h2 {
+	font-size:18px;
+}
+
+.view-gallleries .views-row h2 a {
+	color:#e8db17;
+}
+
+.view-gallleries .views-row {
+	border-top:2px solid #8D8D8D;
+}
+
+.node-teaser .locality-block,
+.node-teaser .country,
+.node-teaser .node-readmore {
+	display:none;
+}
+
+.node-teaser .field {
+	margin-bottom:.2em;
+}
+
+/* Venue Node Page */
+
+.node-type-venue h1 {
+	float:left;
+	font-size:22px;
+	margin:10px 0 0 10px;
+}
+
+.node-type-venue .field {
+	margin-bottom:.4em;
+}
+
+
+#block-views-venue-map-block h2, 
+#block-views-venue-map-block-1 h2 {
+	font-size:14px;
+	text-transform:uppercase;
+}
+
+#block-views-venue-map-block,
+#block-views-venue-map-block-1 {
+	margin-top:10px;
+	max-width:600px;
+}
+
+#block-views-venue-map-block, 
+#block-views-venue-map-block-1 {
+	float:left;
+	width:100%;
+}
+
+.node-type-venue #main-wrapper {
+	float:left;
+	width:100%;
+	border-top:2px solid #8D8D8D;
+	margin-top:10px;
+	padding-top:10px;
+}
+
+@media screen and (min-width:500px) {
+	
+#main {
+	padding-left:20px;
+	padding-right:20px;
+}
+	
+}
+
+
+@media screen and (min-width:720px) {
+	
+#main {
+	padding-left:30px;
+	padding-right:30px;
+}
+	
+}
+
