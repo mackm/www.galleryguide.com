@@ -1,0 +1,29 @@
+<?php
+?>
+
+<?php
+function galleryloc_ip_geoloc_marker_locations_alter(&$marker_locations, &$view) {
+  if (count($marker_locations) >= 1) { 
+
+    $user = ip_geoloc_get_visitor_location();
+    
+    if (($user['latitude'] != NULL)  && ($user['longitude'] != NULL)) {
+      
+    
+      $marker['latitude'] = $marker_locations[0]->latitude;
+      $marker['longitude'] = $marker_locations[0]->longitude;
+    
+      $distance = ip_geoloc_distance($marker,$user);
+    
+      if ($distance < 30000 ) {
+        $user_marker = new stdClass();
+        $user_marker->latitude = $user['latitude'];
+        $user_marker->longitude = $user['longitude'];
+        $user_marker->balloon_text = t('You Are Here');
+        $user_marker->marker_tag = t('Your Location');
+        $user_marker->marker_color = 'white';
+        array_push($marker_locations, $user_marker);
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+name = galleryloc
+description = Fine tunes location maps to only include visitor if they are in the proximity
+package = swiftsure
+version = VERSION
+core = 7.x
+
+files[] = galleryloc.module

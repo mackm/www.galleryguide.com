@@ -117,7 +117,7 @@ h2 {
 }
 
 .view-gallleries .views-row h2 a {
-	color:#e8db17;
+	color:#d84799;
 }
 
 .view-gallleries .views-row {
@@ -131,15 +131,26 @@ h2 {
 }
 
 .node-teaser .field {
-	margin-bottom:.2em;
+	margin-bottom:.4em;
 }
+
+
+.node-venue .field-name-field-main-photo img {
+	max-width:100%;
+}
+
+.field-type-email a,
+.field-type-url a {
+	color:#e8db17;
+}
+
 
 /* Venue Node Page */
 
 .node-type-venue h1 {
 	float:left;
-	font-size:22px;
-	margin:10px 0 0 10px;
+	font-size:18px;
+	margin:10px 0 10px 10px;
 }
 
 .node-type-venue .field {
@@ -156,7 +167,6 @@ h2 {
 #block-views-venue-map-block,
 #block-views-venue-map-block-1 {
 	margin-top:10px;
-	max-width:600px;
 }
 
 #block-views-venue-map-block, 
@@ -179,6 +189,27 @@ h2 {
 	padding-left:20px;
 	padding-right:20px;
 }
+.node-teaser .field-name-field-main-photo {
+	float:left;
+	width:33%;
+	max-width:33%;
+}	
+
+.node-teaser .field-name-body
+{
+  float:right;
+	width:67%;
+	padding-left:15px;
+}
+.node-teaser .field-name-field-address,
+.node-teaser .field-name-field-phone,
+.node-teaser .field-name-field-website,
+.node-teaser .field-name-field-email {
+  float:left;
+	width:100%;
+}
+
+
 	
 }
 
@@ -189,6 +220,18 @@ h2 {
 	padding-left:30px;
 	padding-right:30px;
 }
+
+.node-teaser .field-name-field-main-photo {
+	width:40%;
+	max-width:40%
+}	
+
+.node-teaser .field-name-body
+{
+	width:60%;
+}
+
+
 	
 }
 
