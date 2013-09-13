@@ -221,6 +221,15 @@ h2 {
 }
 
 
+#block-views-venue-map-block,
+#block-views-venues-block {
+	margin-bottom:30px;
+}
+
+.leaflet-popup-content-wrapper {
+	font-size:14px;
+}
+
 	
 }
 
