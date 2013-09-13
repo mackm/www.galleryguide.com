@@ -112,12 +112,23 @@ p {
 	display:none;
 }
 
+h1 {
+	font-size:22px;
+}
+
 h2 {
 	font-size:18px;
 }
 
 .view-gallleries .views-row h2 a {
 	color:#d84799;
+	position:relative;
+}
+
+.view-gallleries .views-row h2 a img {
+	margin-left:2px;
+	position:relative;
+	top:2px;
 }
 
 .view-gallleries .views-row {
@@ -141,7 +152,7 @@ h2 {
 
 .field-type-email a,
 .field-type-url a {
-	color:#e8db17;
+	color:blue;
 }
 
 
