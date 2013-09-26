@@ -195,6 +195,19 @@ h2 {
 	padding-top:10px;
 }
 
+#node-11 a {
+	font-size:16px;
+	color:#4D4D4D;
+	line-height:2em;
+}
+
+h1#page-title {
+	margin-bottom:0;
+}
+
+
+
+
 @media screen and (min-width:500px) {
 	
 #main {
