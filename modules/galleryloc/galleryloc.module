@@ -7,7 +7,8 @@ function galleryloc_ip_geoloc_marker_locations_alter(&$marker_locations, &$view)
 
     $user = ip_geoloc_get_visitor_location();
     
-    if (isset($user) && ($user['latitude'] != NULL)  && ($user['longitude'] != NULL)) {
+    if (isset($user))
+      if (($user['latitude'] != NULL)  && ($user['longitude'] != NULL)) {
       
     
       $marker['latitude'] = $marker_locations[0]->latitude;
